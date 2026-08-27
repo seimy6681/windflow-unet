@@ -11,7 +11,7 @@ windflow-unet/
 ├── unet/
 │   ├── models.py       # U-Net architectures (UNetQualityInspector v1 & v2)
 │   ├── datasets.py     # PyTorch dataset handler for multi-channel .npz patches
-│   ├── losses.py       # Custom physics loss (HorizontalDivergenceLoss regularizer)
+│   ├── losses.py       # Custom physics loss (HorizontalDivergenceLoss regularizer) (In-Progress)
 │   ├── train.py        # Supervised & physics-informed model training loop
 │   └── evaluate.py     # Quantitative evaluation, per-level metrics, and plotting
 ├── slurm_scripts/
