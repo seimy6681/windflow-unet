@@ -1,4 +1,4 @@
-# Windflow U-Net Quality Inspector
+# Windflow U-Net Error Characterization
 
 A Physics-Informed Neural Network (PINN) framework for atmospheric wind vector error prediction using GOES-18/19 satellite observations and numerical model fields. The pipeline enforces fluid dynamics constraints via horizontal divergence regularization to preserve spatial continuity across multi-level pressure surfaces ($700\text{--}300\text{ hPa}$).
 
